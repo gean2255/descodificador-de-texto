@@ -1,15 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Cursos da Alura</title>
-</head>
-<body>
-    <ul>
-        <li>Vagrant</li>
-        <li>Docker</li>
-        <li>Ansible</li>
-        <li>Integração Continua</li>
-    </ul>
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cryptografia Alura</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <img class="imgCrip" src="./cryptographylogo.png" />
+        <label class="labelHeader">Critptografia de Mensagem</label>
+      </div>
+    </header>
+    <main>
+      <div class="container-body">
+        <textarea
+          id="txtarea"
+          placeholder="Para a eficácia do codificador, você só vai conseguir digitar letras minusculas aqui."
+          class="txt-area"
+        ></textarea>
+        <button id="btnCrip" class="btn-cript">Criptografar</button>
+        <button id="btnDescrip" class="btn-decript">Descriptografar</button>
+        <label id="txtoutpu" class="txt-output"></label>
+        <label class="txt-help"
+          >O seu texto Criptografado ou Descriptografado será mostrado logo a
+          baixo, ao clickar em COPIAR se o texto a baixo
+          <strong>estiver vermelho</strong> é por que você tem ele salvo no seu
+          CTRL + V.</label
+        >
+        <button id="btn-copiar" class="btn-copy">Copiar</button>
+      </div>
+    </main>
+
+    <script defer src="./script.js"></script>
+  </body>
 </html>

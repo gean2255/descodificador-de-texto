@@ -1,0 +1,164 @@
+body {
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 382px;
+  margin-top: 12px;
+  width: max-content;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  filter: drop-shadow(4px 8px 0 #919191);
+}
+
+.labelHeader {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 35px;
+  margin-right: 35px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.imgCrip {
+  margin-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90px;
+  height: 85px;
+}
+
+.container-body {
+  display: flex;
+  align-items: center;
+  margin-left: 315px;
+  margin-top: 28px;
+  width: 830px;
+  height: 582px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  filter: drop-shadow(3px 8px 0 #919191);
+}
+
+.txt-area {
+  position: absolute;
+  padding: 24px;
+  width: 85%;
+  text-transform: lowercase;
+  height: 25%;
+  margin: 37px 34px 365px 34px;
+  border: 2px solid black;
+  border-radius: 10px;
+  filter: drop-shadow(6px 8px 0 #919191);
+}
+
+.btn-cript {
+  margin: auto;
+  width: 228px;
+  height: 67px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.btn-cript:hover {
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background: #0a3871;
+  transform: scale(1.1);
+}
+
+.btn-cript:active {
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  background: white;
+  transition: 0ms;
+}
+
+.btn-decript {
+  margin: auto;
+  width: 228px;
+  height: 67px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.btn-decript:hover {
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background: #0a3871;
+  transform: scale(1.1);
+}
+
+.btn-decript:active {
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  background: white;
+  transition: 0ms;
+}
+
+.txt-help {
+  position: absolute;
+  text-align: center;
+  margin-top: 120px;
+}
+
+label strong {
+  color: red;
+}
+
+.txt-output {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 40px;
+  width: 85%;
+  height: 15%;
+  overflow: auto;
+  background: #919191;
+  border-radius: 12px;
+  padding: 24px;
+  word-break: break-all;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.btn-copy {
+  position: absolute;
+  margin-top: 510px;
+  margin-left: 338px;
+  width: 154px;
+  height: 62px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.btn-copy:hover {
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background: #0a3871;
+  transform: scale(1.1);
+}
+
+.btn-copy:active {
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  background: white;
+  transition: 0ms;
+}
